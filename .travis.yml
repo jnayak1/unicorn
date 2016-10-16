@@ -18,5 +18,4 @@ deploy:
   local-dir: unicorn/build
   acl: public_read
   on:
-    repo: jnayak1/unicorn
     branch: angular_continous_deployment
