@@ -27,4 +27,4 @@ deploy:
     bucket: staging-cavalierdani-angular
     local_dir: unicorn/build
     on:
-      branch: staging
+      branch: angular_continous_deployment
