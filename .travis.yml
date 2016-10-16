@@ -4,6 +4,9 @@ python:
 install:
 - pip install -r django/mysite/requirements.txt
 - pip install flake8
+- cd unicorn
+- npm install
+- cd ..
 script:
 - invoke test_all
 before_deploy:
