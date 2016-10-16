@@ -1,10 +1,12 @@
 language: python
 python:
 - '2.7'
+
 install:
 - pip install -r django/mysite/requirements.txt
 - pip install flake8
 - cd unicorn
+- npm install -g angular-cli
 - npm install
 - cd ..
 script:
